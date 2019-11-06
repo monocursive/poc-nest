@@ -10,7 +10,20 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
-    "paths": {}
+    "paths": {
+      "y/interceptors": [
+        "libs/interceptors/src"
+      ],
+      "y/interceptors/*": [
+        "libs/interceptors/src/*"
+      ],
+      "y/shop-interceptor": [
+        "libs/shop-interceptor/src"
+      ],
+      "y/shop-interceptor/*": [
+        "libs/shop-interceptor/src/*"
+      ]
+    }
   },
   "exclude": [
     "node_modules",

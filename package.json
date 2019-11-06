@@ -59,7 +59,12 @@
     "coverageDirectory": "./coverage",
     "testEnvironment": "node",
     "roots": [
-      "<rootDir>/apps/"
-    ]
+      "<rootDir>/apps/",
+      "<rootDir>/libs/"
+    ],
+    "moduleNameMapper": {
+      "y/interceptors/(.*)": "<rootDir>/libs/interceptors/src/$1",
+      "y/shop-interceptor/(.*)": "<rootDir>/libs/shop-interceptor/src/$1"
+    }
   }
 }

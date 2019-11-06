@@ -25,6 +25,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/dummy/tsconfig.app.json"
       }
+    },
+    "shop-interceptor": {
+      "type": "library",
+      "root": "libs/shop-interceptor",
+      "entryFile": "index",
+      "sourceRoot": "libs/shop-interceptor/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/shop-interceptor/tsconfig.lib.json"
+      }
     }
   }
 }
