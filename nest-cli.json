@@ -1,0 +1,30 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/poc-nest/src",
+  "monorepo": true,
+  "root": "apps/poc-nest",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/poc-nest/tsconfig.app.json"
+  },
+  "projects": {
+    "accounts": {
+      "type": "application",
+      "root": "apps/accounts",
+      "entryFile": "main",
+      "sourceRoot": "apps/accounts/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/accounts/tsconfig.app.json"
+      }
+    },
+    "dummy": {
+      "type": "application",
+      "root": "apps/dummy",
+      "entryFile": "main",
+      "sourceRoot": "apps/dummy/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/dummy/tsconfig.app.json"
+      }
+    }
+  }
+}
