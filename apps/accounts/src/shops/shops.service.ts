@@ -11,4 +11,8 @@ export class ShopsService {
     ];
     return of(shops);
   }
+
+  createShopAction(shop: ShopDTO): Observable<ShopDTO> {
+    return of(shop);
+  }
 }
