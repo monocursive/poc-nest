@@ -34,6 +34,15 @@
       "compilerOptions": {
         "tsConfigPath": "libs/shop-interceptor/tsconfig.lib.json"
       }
+    },
+    "auth-guard": {
+      "type": "library",
+      "root": "libs/auth-guard",
+      "entryFile": "index",
+      "sourceRoot": "libs/auth-guard/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/auth-guard/tsconfig.lib.json"
+      }
     }
   }
 }

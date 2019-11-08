@@ -1,6 +1,8 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, UseInterceptors } from '@nestjs/common';
 import { AppService } from './app.service';
+import { ShopInterceptor } from '@app/shop-interceptor';
 
+@UseInterceptors(ShopInterceptor)
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
