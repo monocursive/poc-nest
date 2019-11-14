@@ -29,7 +29,8 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
     "rxjs": "^6.5.3",
-    "swagger-ui-express": "^4.1.2"
+    "swagger-ui-express": "^4.1.2",
+    "yargs": "^14.2.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^6.9.0",
@@ -68,7 +69,9 @@
     ],
     "moduleNameMapper": {
       "@app/shop-interceptor/(.*)": "<rootDir>/libs/shop-interceptor/src/$1",
-      "@app/auth-guard/(.*)": "<rootDir>/libs/auth-guard/src/$1"
+      "@app/auth-guard/(.*)": "<rootDir>/libs/auth-guard/src/$1",
+      "@app/command/(.*)": "<rootDir>/libs/command/src/$1",
+      "@app/testlib/(.*)": "<rootDir>/libs/testlib/src/$1"
     }
   }
 }

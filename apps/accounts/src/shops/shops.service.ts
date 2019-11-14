@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Observable, of } from 'rxjs';
 import { ShopDTO } from './dto/shop.dto';
+import { UsersService } from '../users/users.service';
 
 @Injectable()
 export class ShopsService {

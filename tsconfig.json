@@ -12,11 +12,34 @@
     "baseUrl": "./",
     "incremental": true,
     "paths": {
-      "@app/shop-interceptor": ["libs/shop-interceptor/src"],
-      "@app/shop-interceptor/*": ["libs/shop-interceptor/src/*"],
-      "@app/auth-guard": ["libs/auth-guard/src"],
-      "@app/auth-guard/*": ["libs/auth-guard/src/*"]
+      "@app/shop-interceptor": [
+        "libs/shop-interceptor/src"
+      ],
+      "@app/shop-interceptor/*": [
+        "libs/shop-interceptor/src/*"
+      ],
+      "@app/auth-guard": [
+        "libs/auth-guard/src"
+      ],
+      "@app/auth-guard/*": [
+        "libs/auth-guard/src/*"
+      ],
+      "@app/command": [
+        "libs/command/src"
+      ],
+      "@app/command/*": [
+        "libs/command/src/*"
+      ],
+      "@app/testlib": [
+        "libs/testlib/src"
+      ],
+      "@app/testlib/*": [
+        "libs/testlib/src/*"
+      ]
     }
   },
-  "exclude": ["node_modules", "dist"]
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
