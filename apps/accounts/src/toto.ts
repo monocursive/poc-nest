@@ -1,2 +1,2 @@
 import bootstrap from './scopes/main';
-bootstrap();
+bootstrap('toto');

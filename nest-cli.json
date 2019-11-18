@@ -17,6 +17,15 @@
         "tsConfigPath": "apps/accounts/tsconfig.app.json"
       }
     },
+    "accounts-toto": {
+      "type": "application",
+      "root": "apps/accounts",
+      "entryFile": "toto",
+      "sourceRoot": "apps/accounts/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/accounts/tsconfig.app.json"
+      }
+    },
     "dummy": {
       "type": "application",
       "root": "apps/dummy",
