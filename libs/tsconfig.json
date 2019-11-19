@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "auth-guard"
+    },
+    {
+      "path": "command"
+    },
+    {
+      "path": "shop-interceptor"
+    }
+  ]
+}
