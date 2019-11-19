@@ -19,3 +19,8 @@ npm install
 # watch mode
 npm run start:dev
 ```
+
+```bash
+# Build the image from the monorepo root folder, we need this to have libs in the docker build context
+docker build -f apps/accounts/Dockerfile .
+```
