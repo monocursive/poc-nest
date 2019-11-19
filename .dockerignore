@@ -1,2 +1,7 @@
 node_modules
+apps/accounts/dist/
+apps/accounts/node_modules/
+libs/**/lib
+libs/**/node_modules
+libs/**/tsconfig.tsbuildinfo
 dist
