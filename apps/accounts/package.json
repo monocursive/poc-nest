@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "nest build",
+    "build": "lerna bootstrap && lerna run build && npm run link-libs && nest build",
     "format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
     "link-libs": "npm link ../../libs/auth-guard && npm link ../../libs/command && npm link ../../libs/shop-interceptor",
     "start": "nest start",
