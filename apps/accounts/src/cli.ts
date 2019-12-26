@@ -1,5 +1,5 @@
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
+import { AppModule } from './scopes/all.module';
 import { CommandModule, CommandService } from '@app/command';
 
 (async () => {
